@@ -1,12 +1,16 @@
 {
   "semantics":[
     {
-      "label":"Background image",
-      "description":"Image shown on background."
+      "label":"Εικόνα φόντου",
+      "description":"Η εικόνα που θα εμφανίζεται στο φόντο."
+    },
+     {
+    "label": "Εναλλακτικό κείμενο για εικόνα φόντου",
+    "description": "Αν ο φυλλομετρητής αδυνατεί να φορτώσει την εικόνα, θα εμφανιστεί αυτό το κείμενο. Χρησιμοποιείται επίσης από υποστηρικτικές τεχνολογίες."
     },
     {
-      "label":"Hotspot color",
-      "description":"The color of the hotspots",
+      "label":"Χρώμα Hotspot",
+      "description":"Το χρώμα των hotspots",
       "default":"#981d99",
       "spectrum":{
         
@@ -19,8 +23,8 @@
         "label":"Hotspot",
         "fields":[
           {
-            "label":"Hotspot position",
-            "description":"Click on the thumbnail image to place the hotspot",
+            "label":"Θέση του Hotspot",
+            "description":"Κάντε κλικ στη μικρογραφία της εικόνας για να τοποθετήσετε το hotspot",
             "fields":[
               {
                 
@@ -31,17 +35,17 @@
             ]
           },
           {
-            "label":"Cover entire background image",
-            "description":"When the user clicks the hotspot the popup will cover the entire background image"
+            "label":"Να καλύπτει ολόκληρη την εικόνα φόντου",
+            "description":"Όταν ο χρήστης κάνει κλικ πάνω στο hotspot, το αναδυόμενο περιεχόμενο θα καλύπτει ολόκληρη την εικόνα φόντου"
           },
           {
-            "label":"Header",
-            "description":"Optional header for the popup"
+            "label":"Επικεφαλίδα",
+            "description":"Eπικεφαλίδα για το αναδυόμενο περιεχόμενο (προαιρετικό)"
           },
           {
-            "label":"Popup content",
+            "label":"Αναδυόμενο περιεχόμενο",
             "field":{
-              "label":"Content Item"
+              "label":"Στοιχείο περιεχομένου"
             }
           }
         ]
