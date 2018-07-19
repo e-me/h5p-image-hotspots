@@ -11,10 +11,6 @@
     {
       "label":"Χρώμα Hotspot",
       "description":"Το χρώμα των hotspots",
-      "default":"#981d99",
-      "spectrum":{
-        
-      }
     },
     {
       "entity":"hotspot",
@@ -25,14 +21,6 @@
           {
             "label":"Θέση του Hotspot",
             "description":"Κάντε κλικ στη μικρογραφία της εικόνας για να τοποθετήσετε το hotspot",
-            "fields":[
-              {
-                
-              },
-              {
-                
-              }
-            ]
           },
           {
             "label":"Να καλύπτει ολόκληρη την εικόνα φόντου",
